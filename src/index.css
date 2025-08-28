@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .nav_header, 
 .nav_links,
-.quote-container{
+.quote_container{
     font-family: 'Poppins', sans-serif;
 }

@@ -21,7 +21,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
       >
         <nav className="space-y-4">
           <div className="flex items-center justify-between px-2 py-3 border-b-2 border-white">
-            <h1 className="nav_header text-2xl text-center md:text-left font-bold text-[#EEEEEE] ml-4 p-0 m-0">
+            <h1 className="nav_header text-2xl text-center md:text-center font-bold text-[#EEEEEE] ml-4 p-0 m-0">
               My Tasks App
             </h1>
             <button
