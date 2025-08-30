@@ -10,13 +10,20 @@ function App() {
   };
   return (
     <>
-      <div className="flex min-h-screen w-full flex-col md:flex-row bg-[#F8F8FF]">
-        <Header toggleSidebar={toggleSidebar} />
-        <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-        <main className="flex-grow w-full">
-          <Dashboard />
-        </main>
-      </div>
+<div className="flex w-full h-screen flex-col md:flex-row">
+  {/* Header */}
+  <Header toggleSidebar={toggleSidebar} />
+
+  {/* Sidebar */}
+  <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+
+  {/* Main Content */}
+  <main className="flex-grow w-full bg-slate-900 mt-16 md:mt-0 overflow-y-auto">
+    <Dashboard />
+  </main>
+</div>
+
+
     </>
   );
 }

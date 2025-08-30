@@ -10,7 +10,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
 
       <aside
         className={`
-          fixed top-0 left-0 h-screen bg-[#0F0E0E] p-3 shadow-xl
+          fixed top-0 left-0 h-screen bg-gray-800 p-3 shadow-xl
           w-full md:w-64
           transform
           transition-transform duration-300 ease-in-out
