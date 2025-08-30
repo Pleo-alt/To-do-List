@@ -5,9 +5,11 @@ import Dashboard from "./sections/Dashboard";
 function App() {
   //Sidebar Logic handled in Sidebar.jsx and Header.jsx
   const [isSidebarOpen, setisSidebarOpen] = useState(false);
+  
   const toggleSidebar = () => {
     setisSidebarOpen(!isSidebarOpen);
   };
+  
   return (
     <>
 <div className="flex w-full h-screen flex-col md:flex-row">

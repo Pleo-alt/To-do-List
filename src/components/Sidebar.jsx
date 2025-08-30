@@ -10,14 +10,14 @@ function Sidebar({ isOpen, toggleSidebar }) {
 
       <aside
         className={`
-          fixed top-0 left-0 h-screen bg-gray-800 p-3 shadow-xl
-          w-full md:w-64
-          transform
-          transition-transform duration-300 ease-in-out
-          ${isOpen ? "translate-x-0" : "-translate-x-full"}
-          md:translate-x-0 md:static md:block
-          z-40
-        `}
+    fixed top-0 left-0 h-screen bg-gray-800 p-3 shadow-xl
+    w-full md:w-64
+    transform
+    ${isOpen ? "translate-x-0" : "-translate-x-full"}
+    transition-transform duration-300 ease-in-out md:transition-none
+    md:translate-x-0 md:static md:block
+    z-40
+  `}
       >
         <nav className="space-y-4">
           <div className="flex items-center justify-between px-2 py-3 border-b-2 border-white">
