@@ -12,7 +12,7 @@ function Dashboard() {
             <p className="text-white">Stay organized and productive</p>
           </div>
 
-          <button className="bg-[#58A0C8] text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 transition duration-300 ease-in-out w-full md:w-auto mt-4 md:mt-0">
+          <button className="bg-[#58A0C8] text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-[#78B9B5] focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 transition duration-300 ease-in-out w-full md:w-auto mt-4 md:mt-0">
             Add Task
           </button>
         </div>
