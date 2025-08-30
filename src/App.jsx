@@ -11,14 +11,9 @@ function App() {
   return (
     <>
 <div className="flex w-full h-screen flex-col md:flex-row">
-  {/* Header */}
   <Header toggleSidebar={toggleSidebar} />
-
-  {/* Sidebar */}
   <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-
-  {/* Main Content */}
-  <main className="flex-grow w-full bg-slate-900 mt-16 md:mt-0 overflow-y-auto">
+  <main className="flex-grow w-full bg-slate-900 md:mt-0 overflow-y-auto">
     <Dashboard />
   </main>
 </div>
